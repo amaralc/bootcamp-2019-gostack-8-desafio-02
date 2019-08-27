@@ -1,5 +1,5 @@
 // IMPORT
-const { Router } = require('express');
+import { Router } from 'express';
 
 // BODY
 const routes = new Router();
@@ -9,4 +9,4 @@ routes.get('/',(req,res) => {
 })
 
 // EXPORT
-module.exports = routes;
+export default routes;
