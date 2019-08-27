@@ -1,6 +1,6 @@
 // IMPORT
-const express = require('express');
-const routes = require('./routes');
+import express from 'express';
+import routes from './routes';
 
 // BODY
 class App {
@@ -21,4 +21,4 @@ class App {
 }
 
 // EXPORT
-module.exports = new App().server;
+export default new App().server;

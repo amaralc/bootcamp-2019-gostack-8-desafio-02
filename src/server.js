@@ -1,5 +1,5 @@
 // IMPORT
-const app = require('./app');
+import app from './app';
 
 // BODY
 app.listen(3333);
