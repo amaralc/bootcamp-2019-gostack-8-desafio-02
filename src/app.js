@@ -1,5 +1,5 @@
 // IMPORT
-import express from 'express';
+import express, { json } from 'express';
 import routes from './routes';
 
 // BODY
@@ -12,7 +12,7 @@ class App {
   }
 
   middlewares(){
-    this.server.use(express.json());
+    this.server.use(json());
   }
 
   routes(){
