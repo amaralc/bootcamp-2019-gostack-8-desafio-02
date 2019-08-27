@@ -4,18 +4,18 @@ import routes from './routes';
 
 // BODY
 class App {
-  constructor(){
+  constructor() {
     this.server = express();
 
     this.middlewares();
     this.routes();
   }
 
-  middlewares(){
+  middlewares() {
     this.server.use(json());
   }
 
-  routes(){
+  routes() {
     this.server.use(routes);
   }
 }
