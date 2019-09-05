@@ -1,6 +1,7 @@
 // IMPORT
 import express, { json } from 'express';
 import routes from './routes';
+import './database';
 
 // BODY
 class App {
